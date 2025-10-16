@@ -1,2 +1,163 @@
-# REVIA
-Revia — a smart solution that bridges the gap between hotels that produce food waste and fertilizer companies that need organic raw material.
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revia – Turning Waste into Opportunity</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f5fff5;
+      color: #333;
+    }
+    header {
+      background: #2e7d32;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .feature {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      flex: 1 1 300px;
+      transition: transform 0.3s;
+    }
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+    .feature h3 {
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta button {
+      background: #2e7d32;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cta button:hover {
+      background: #1b5e20;
+    }
+    footer {
+      background: #2e7d32;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #a5d6a7;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Revia</h1>
+    <p>Turning Food Waste into Opportunity 🌱</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">Our Mission</h2>
+    <p style="text-align:center; font-size:1.1rem;">
+      Revia bridges the gap between <b>hotels generating food waste</b> and 
+      <b>fertilizer companies</b> that process it into organic compost and feed. 
+      We create a sustainable link that reduces pollution and supports eco-friendly farming.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">How It Works</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>1️⃣ Waste Collection</h3>
+        <p>Hotels list food waste via our digital platform. Revia handles efficient pickup and logistics.</p>
+      </div>
+      <div class="feature">
+        <h3>2️⃣ Smart Sorting</h3>
+        <p>We ensure only usable organic waste reaches fertilizer companies for compost processing.</p>
+      </div>
+      <div class="feature">
+        <h3>3️⃣ Circular Economy</h3>
+        <p>Farmers benefit from organic compost and feed, creating a clean, green, and sustainable cycle.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Why Choose Revia?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>♻️ Sustainable Impact</h3>
+        <p>Reduce landfill waste and carbon emissions by turning waste into value.</p>
+      </div>
+      <div class="feature">
+        <h3>🚛 Reliable Supply</h3>
+        <p>Continuous flow of organic material for fertilizer companies and agri-solutions.</p>
+      </div>
+      <div class="feature">
+        <h3>🌍 Eco-Friendly Technology</h3>
+        <p>Smart bins, tracking, and digital marketplace ensure efficient waste management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2 class="section-title">Join Us</h2>
+    <p>Be part of the green revolution! Partner with Revia to make sustainability profitable.</p>
+    <button onclick="showContact()">Partner with Us</button>
+  </section>
+
+  <footer>
+    <p>📧 revia.startup@gmail.com | 🌐 <a href="#">www.reviaeco.com</a></p>
+    <p>Follow us: <a href="#">Instagram</a> | <a href="#">LinkedIn</a> | <a href="#">Facebook</a></p>
+    <p>© 2025 Revia. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showContact() {
+      alert("Thank you for your interest! Please email us at revia.startup@gmail.com 🌱");
+    }
+  </script>
+</body>
+</html>
